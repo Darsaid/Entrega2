@@ -23,6 +23,12 @@ public class HomeController : Controller
     {
         return View();
     }
+
+    public IActionResult VistaNueva()
+    {
+        return View();
+    }
+
     public IActionResult Privacy()
     {
         return View();
